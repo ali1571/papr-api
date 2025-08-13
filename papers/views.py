@@ -4,7 +4,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from supabase import create_client, Client
 from dotenv import load_dotenv
-import requests
+
 
 def transform_to_nested(all_files_data):
     result = {"subjects": []}
