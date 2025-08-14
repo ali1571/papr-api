@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'papers',  # Your new app
 ]
 
@@ -55,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
 
 ROOT_URLCONF = 'papr_api.urls'
@@ -76,6 +78,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'papr_api.wsgi.application'
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173"
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
