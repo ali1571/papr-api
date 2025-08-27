@@ -81,7 +81,8 @@ WSGI_APPLICATION = 'papr_api.wsgi.application'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://paprfinal-5sse89lc0-allis-projects-27d8af93.vercel.app/",
-    "papr.site"
+    "https://papr.site/",
+    "https://www.papr.site/"
 ]
 
 # Database
