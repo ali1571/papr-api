@@ -85,7 +85,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://www.papr.site/"
     "papr.site",
     "www.papr.site",
-    "www.papr.site/"
+    "www.papr.site/",
+    "https://www.papr.site",
+    "https://papr.site"
 ]
 
 # Database
