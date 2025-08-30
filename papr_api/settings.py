@@ -83,6 +83,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://paprfinal-5sse89lc0-allis-projects-27d8af93.vercel.app/",
     "https://papr.site/",
     "https://www.papr.site/"
+    "papr.site",
+    "www.papr.site",
+    "www.papr.site/"
 ]
 
 # Database
